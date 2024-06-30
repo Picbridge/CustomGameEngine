@@ -1,0 +1,40 @@
+{
+  "Materials": {
+    "brick": {
+      "diffuse": "texture/texture_diff.png",
+      "specular": "texture/texture_spec.png"
+    },
+    "wood": {
+      "diffuse": "texture/texture_wood.png",
+      "color": [
+        125.0,
+        135.0,
+        125.0
+      ]
+    },
+	"title": {
+      "diffuse": "texture/Sprites/title.png"
+    },
+    "player": {
+      "diffuse": "texture/Sprites/player.png"
+    },
+	"enemy1": {
+      "diffuse": "texture/Sprites/enemy1.png"
+    },
+	"enemy2": {
+      "diffuse": "texture/Sprites/enemy2.png"
+    },
+	"weapon": {
+      "diffuse": "texture/Sprites/weapon.png"
+    },
+	"field": {
+      "diffuse": "texture/Sprites/field.png"
+    },
+	"lose": {
+      "diffuse": "texture/Sprites/lose.png"
+    },
+	"win": {
+      "diffuse": "texture/Sprites/win.png"
+    }
+  }
+}

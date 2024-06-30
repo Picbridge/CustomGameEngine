@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\aky20\CS529\CS529_Jihoon_Bae_2 (2)\CS529_Jihoon_Bae_2\x64\Debug\CS529_Jihoon_Bae.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\aky20\CS529\CS529_Jihoon_Bae_2 (2)\CS529_Jihoon_Bae_2\x64\Debug\Engine_UnitTest_Jihoon_Bae.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

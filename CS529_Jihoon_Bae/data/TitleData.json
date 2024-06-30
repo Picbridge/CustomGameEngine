@@ -1,0 +1,30 @@
+{
+    "GameObjects": {
+		"Background": {
+            "Components": {
+                "Render": {
+                    "material": "title",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        0.1,
+                        -1.5,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        3.5,
+                        3.5,
+                        1
+                    ]
+                }
+            }
+        }
+    }
+}

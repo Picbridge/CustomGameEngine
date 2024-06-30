@@ -1,0 +1,10 @@
+{
+    "Root": {
+		"Field":{},
+        "Player": {
+			"Sword":{}
+		},
+        "Object2": {},
+        "Object3": {}
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "GameObjects": {
+		"Heart1": {
+            "Components": {
+                "Render": {
+                    "material": "player",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -1.3,
+                        1.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.1,
+                        0.1,
+                        1
+                    ]
+                }
+            }
+        },
+        "Heart2": {
+            "Components": {
+                "Render": {
+                    "material": "player",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -1.2,
+                        1.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.1,
+                        0.1,
+                        1
+                    ]
+                }
+            }
+        },
+		"Heart3": {
+            "Components": {
+                "Render": {
+                    "material": "player",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -1.1,
+                        1.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.1,
+                        0.1,
+                        1
+                    ]
+                }
+            }
+        },
+		"Heart4": {
+            "Components": {
+                "Render": {
+                    "material": "player",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -1,
+                        1.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.1,
+                        0.1,
+                        1
+                    ]
+                }
+            }
+        },
+		"Heart5": {
+            "Components": {
+                "Render": {
+                    "material": "player",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -0.9,
+                        1.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.1,
+                        0.1,
+                        1
+                    ]
+                }
+            }
+        }
+    }
+}

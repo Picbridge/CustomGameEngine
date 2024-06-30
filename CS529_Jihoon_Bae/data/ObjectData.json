@@ -1,0 +1,169 @@
+{
+    "GameObjects": {
+		"Field": {
+            "Components": {
+                "Render": {
+                    "material": "field",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        4,
+                        4,
+                        1
+                    ]
+                }
+            }
+        },
+        "Player": {
+            "Components": {
+                "Render": {
+                    "material": "player",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.2,
+                        0.2,
+                        1
+                    ]
+                },
+                "Physics": {
+                    "shape": "AABB",
+                    "mass": 1,
+                    "inertia": 0.01,
+                    "friction": 3
+                },
+                "PlayerController": {},
+                "Behavior": {}
+            }
+        },
+        "Object2": {
+            "Components": {
+                "Render": {
+                    "material": "enemy1",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        1,
+                        1.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.2,
+                        0.2,
+                        1
+                    ]
+                },
+                "Physics": {
+                    "shape": "AABB",
+                    "mass": 1,
+                    "inertia": 0.01,
+                    "friction": 3
+                },
+				"Follow": {},
+				"EnemyBehavior": {
+					"hits":2
+				}
+            }
+        },
+        "Object3": {
+            "Components": {
+                "Render": {
+                    "material": "enemy2",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -0.8,
+                        -0.6,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.2,
+                        0.2,
+                        1
+                    ]
+                },
+                "Physics": {
+                    "shape": "AABB",
+                    "mass": 1,
+                    "inertia": 0.01,
+                    "friction": 3
+                },
+				"Follow": {},
+				"EnemyBehavior": {
+					"hits":1
+				}
+            }
+        },
+		"Sword": {
+            "Components": {
+                "Render": {
+                    "material": "weapon",
+                    "geometry": "SquareMesh",
+                    "shader": "Default"
+                },
+                "Transform": {
+                    "position": [
+                        -0.8,
+                        -0.6,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        0.4,
+                        0.2,
+                        1
+                    ]
+                },
+                "Physics": {
+                    "shape": "AABB",
+                    "mass": 1,
+                    "inertia": 0.01,
+                    "friction": 3
+                },
+				"Weapon": {}
+            }
+        }
+    }
+}
